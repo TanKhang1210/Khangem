@@ -77,3 +77,7 @@ E:\ASP.NET\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csproj.Core
 E:\ASP.NET\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csproj.CopyComplete
 E:\ASP.NET\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
 E:\ASP.NET\WebApplication2\WebApplication2\obj\Debug\WebApplication2.pdb
+E:\ASP.NET\WebApplication2\WebApplication2\bin\EntityFramework.dll
+E:\ASP.NET\WebApplication2\WebApplication2\bin\EntityFramework.SqlServer.dll
+E:\ASP.NET\WebApplication2\WebApplication2\bin\EntityFramework.xml
+E:\ASP.NET\WebApplication2\WebApplication2\bin\EntityFramework.SqlServer.xml

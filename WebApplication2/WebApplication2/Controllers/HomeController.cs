@@ -3,14 +3,20 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using WebApplication2.Context;
+using WebApplication2.Models;
 
 namespace WebApplication2.Controllers
 {
     public class HomeController : Controller
     {
+        webbandtEntities objwebbandtEntities = new webbandtEntities();
         public ActionResult Index()
         {
-            return View();
+            HomeModel objHomeModel = new HomeModel();
+            objHomeModel.ListCategory = objwebbandtEntities.Categories.ToList();
+            objHomeModel.ListProduct = objwebbandtEntities.Products.ToList();
+            return View(objHomeModel);
         }
 
         public ActionResult About()
